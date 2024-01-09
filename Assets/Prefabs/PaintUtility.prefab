@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7943930394573564627
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5210973663040714782}
+  - component: {fileID: 2109162610139339697}
+  - component: {fileID: 748912577973404017}
+  m_Layer: 0
+  m_Name: PaintUtility
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5210973663040714782
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7943930394573564627}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2109162610139339697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7943930394573564627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 080d0452be4ce1048b3660c8300be465, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paintMask: {fileID: 2800000, guid: 6c411504a8c1e40c4aa19423033e6dd2, type: 3}
+  surfaceLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  paintLayer:
+    serializedVersion: 2
+    m_Bits: 384
+  paintBufferSize: 0
+  paintBufferCapacity: 0
+--- !u!114 &748912577973404017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7943930394573564627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3c144ebd64ccf9418a91757dee03bc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxPaintCapacity: 200
+  maxPaintLifetime: 3
+  minPaintBlobDistance: 0.0015
+  paintBlobRadius: 0.003
+  airDrag: 0.05
+  stickyDrag: 20
+  stickyForce: 9.2
+  stickyRadius: 0.01
+  numLiquidDropsAlive: 0
+  overlapSphereResultsSize: 0
+  closestPointResultsSize: 0
+  overlapSphereCommandsSize: 0
+  jobHandlesSize: 0

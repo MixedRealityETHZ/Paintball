@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: 7417117c0e3b24843b8ff3343b9a672f
+  - enabled: 0
+    path: Assets/Scenes/Wall Interaction.unity
+    guid: d38a0f4b842d4ee44984bd4acc81ec15
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  m_configObjects:
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: bc5e49e55e1d93f4c971648b6699bf9e,
+      type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 6b5a0d8c106c2ad49aea1ff8fed3395f,
+      type: 2}
+    com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: 47b0060ced95e164984fb58a92e4bbbb,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 02fa7df25e8217e4c867ada0bc80939a,
+      type: 2}
